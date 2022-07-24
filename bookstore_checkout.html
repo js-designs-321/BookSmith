@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bookstore_checkout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/bookstore/logo.jpg">
+    <title>Booksmith | Checkout</title>
+</head>
+<body>
+    <h2>Checkout</h2>
+    <main>
+    <form method="POST">
+        <section id="address-and-payment">
+            <div id="address">
+                <h2>Shipping Address</h2>
+                <div class="input-field-container">    
+                    <label for="name">
+                        <i class="fas fa-user-alt"></i>
+                        Full Name
+                    </label><br>
+                    <input type="text" name="name" id="name" placeholder="full name" required>
+                </div>
+                <div class="input-field-container">
+                    <label for="email">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </label><br>
+                    <input type="email" name="email" id="email" placeholder="abc@example.com" required>
+                </div>
+                <div class="input-field-container">
+                    <label for="address-detail">
+                        <i class="far fa-address-card"></i>
+                        Address
+                    </label><br>
+                    <input type="text" name="address" id="address-detail" required>
+                </div>
+                <div class="input-field-container">
+                    <label for="city">
+                        <i class="fas fa-city"></i>
+                        City
+                    </label><br>
+                    <input type="text" name="city" id="city" required>
+                </div>
+                <div class="flex-row input-field-container">
+                    <div>
+                        <label for="state">State</label><br>
+                        <input type="text" name="state" id="state" required>
+                    </div>
+                    <div>
+                        <label for="zip">Zip Code</label><br>
+                        <input type="number" name="zip" id="zip" required>
+                    </div>
+                </div>
+            </div>    
+            <div id="payment">
+                <h2>Payment</h2>
+                <div id="accepted-cards">
+                    <span>Accepted Cards</span>
+                    <i class="fab fa-cc-visa" style="color: navy;"></i>
+                    <i class="fab fa-cc-mastercard" style="color: red;"></i>
+                    <i class="fab fa-cc-amex" style="color: blue;"></i>
+                    <i class="fab fa-cc-discover" style="color: orange;"></i>
+                </div>
+                <div class="input-field-container">
+                    <label for="name-on-card">Name on Card</label><br>
+                    <input type="text" name="name-on-card" required>
+                </div>
+                <div class="input-field-container">
+                    <label for="card-number">Card Number</label><br>
+                    <input type="number" name="card-number" id="card-number" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+                </div>
+                <div class="flex-row input-field-container">
+                    <div>
+                        <label for="expiry-month">Expiry Month</label><br>
+                        <input type="text" name="expiry-month" id="expiry-month" required>
+                    </div>
+                    <div>
+                        <label for="expiry-year">Expiry Year</label><br>
+                        <input type="text" name="expiry-year" id="expiry-year" required>
+                    </div>
+                </div>    
+                <div class="input-field-container">
+                    <label for="cvv">CVV</label><br>
+                    <input type="password" name="cvv" id="cvv" required>
+                </div>
+            </div>
+        <input id="submit-button" type="submit" value="Place Order">
+        </section>
+    </form>
+    <aside id="cart">
+        <div style="border-bottom: 1px solid lightgrey;">
+            <h3>Cart</h3>
+            <p>
+                <i class="fas fa-shopping-cart"></i>
+                <span>3</span>
+            </p>
+        </div>
+        <div>
+            <p>Think and Grow Rich</p>
+            <p>299</p>
+        </div>
+        <div>
+            <p>Rich Dad Poor Dad</p>
+            <p>149</p>
+        </div>
+        <div>
+            <p>Web Development</p>
+            <p>399</p>
+        </div>
+    </aside>
+    </main>
+</body>
+</html>

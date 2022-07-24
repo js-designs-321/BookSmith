@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05rem;
+    font-size: 1.15rem;
+    background-color: azure;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: blueviolet;
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    font-weight: 600;
+    color: orange;
+}

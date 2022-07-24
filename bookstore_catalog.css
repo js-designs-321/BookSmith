@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+}
+
+#logo-container{
+    height: 48px;
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-container img{
+    height: 48px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+#logo-container p{
+    width: 105px;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 0.1rem;
+    color: orange;
+    font-weight: 700;
+}
+
+#search-bar input{
+    height: 30px;
+    width: 350px;
+    padding: 2.5px 7.5px; 
+    border: 0px solid transparent;
+    font-size: medium;
+    letter-spacing: 0.05rem;
+}
+
+#search-bar input:focus{
+    outline: none; 
+}
+
+#search-bar button{
+    height: 35px;
+    border: 0px solid transparent;
+    padding: 0 7.5px;
+    float: right;
+    font-size: medium;
+    background-color: orange;
+}
+
+#search-bar button:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#search-bar button:focus{
+    outline: none;
+}
+
+#navigations{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_style{
+    font-size: large;
+    letter-spacing: 0.03rem;
+    color: white;
+}
+
+.genre-container{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.genre-container h3{
+    text-align: center;
+    letter-spacing: 00.05rem;
+    color: gray;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.books-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+}
+
+.book-container img{
+    width: 180px;
+    height: 225px;
+}
+
+.book-info{
+    padding: 0 0 20px;
+    text-align: center;
+    letter-spacing: 00.03rem;
+}
+
+.book-info input{
+    border: 0px solid transparent;
+    padding: 7.5px;
+    background-color: orange;
+    letter-spacing: 00.03rem;
+}
+
+.book-info input:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.book-info input:focus{
+    outline: none;
+}
+
+#explore{
+    margin: 2% 41% 0;
+    padding-top: 7.5px;
+    padding-bottom: 20px;
+}
+
+#explore input{
+    padding: 10px;
+    height: 50px;
+    width: 250px;
+    letter-spacing: 00.03rem;
+    color: white;
+    background-color: orange;
+    border: 0px solid transparent;
+    font-size: large;
+    font-weight: 600;
+}
+
+#explore input:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0px;
+    letter-spacing: 00.05rem;
+}
+
+a{
+    text-decoration: none;
+}

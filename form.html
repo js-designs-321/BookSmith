@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Info</h1>
+    <form method="post">
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" name="name" placeholder="Full Name"></td>
+            </tr>
+            <tr>
+                <th>Roll Number</th>
+                <td><input type="number" name="rollNumber" placeholder="Roll Number"></td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td><input type="date" name="dateOfBirth"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <input type="radio" name="gender" value="transgender">Transgender <br>
+                </td>
+            </tr>
+            <tr>
+                <th>Father's Name</th>
+                <td><input type="text" name="fatherName" placeholder="No prefixes"></td>
+            </tr>
+            <tr>
+                <th>Highest qualification</th>
+                <td><input type="text" name="qualification"></td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td>
+                    <input type="checkbox" name="Prorgamming">Prorgamming<br>
+                    <input type="checkbox" name="Reading">Reading<br>
+                    <input type="checkbox" name="Dancing">Dancing<br>
+                    <input type="checkbox" name="Swimming">Swimming<br>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="number" name="phoneNumber"></td>
+            </tr>
+            <tr>
+                <th>Email Id</th>
+                <td><input type="email" name="emailId"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><input type="text" name="address" placeholder="Enter Permanent Address ... "></td>
+            </tr>
+            <tr>
+                <th>Profile photo</th>
+                <td><input type="file" name="uploadedImage"></td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

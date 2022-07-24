@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense_tracker.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/expense Tracker/logo.jpg">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>
+        <img src="images/expense Tracker/logo.jpg">
+        <p>Expense Tracker</p> 
+    </h1>
+
+    <main>
+        <div id="expense-summary">
+            <h3>Your Budget</h3>
+            <p id="current-month"></p>
+            <p>Account Summary</p>
+            <table id="summary" border="1">
+                <tr>
+                    <td>Balance</td>
+                    <td>Spent</td>
+                    <td>Invested</td>
+                </tr>
+                <tr>
+                    <td id="amount-left">0</td>
+                    <td id="amount-spent">0</td>
+                    <td id="amount-invested">0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="track-expenses">
+            <h3>Track Your Expenses</h3>
+            <select name="expense-type" id="expense-type" class="input-style">
+                <option value="investment">Investment</option>
+                <option value="salary" selected>Salary</option>
+                <option value="shopping">Shopping/Loan EMI</option>
+            </select>
+            <input type="text" name="description" id="description" placeholder="Description" class="input-style" required>
+            <input type="number" name="amount" id="amount" placeholder="Amount" class="input-style" required>
+            <button type="submit" id="submit-button" class="input-style">Save Record</button>
+            <ul id="expenses"></ul>
+        </div>
+
+    </main>
+</body>
+<script type="text/javascript" src="expense_tracker.js"></script>
+</html>

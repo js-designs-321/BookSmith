@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+#main-heading{
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    background-color: #f2f2f2;
+}
+
+#input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#input-container input{
+    margin-top: 20px;
+    padding: 12px 10px;
+}
+
+#task{
+    width: 250px;
+    border: 0px solid transparent;
+}
+
+#task:focus{
+    outline: none;
+}
+
+#submit-button{
+    background-color: #4CAF50;
+    border: 0px solid transparent;
+}
+
+#submit-button:hover{
+    cursor: pointer;
+    background-color: #45a049;
+}
+
+#tasks{
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#tasks li{
+    position: relative;
+    padding: 10px 12px;
+    background-color: pink;
+    margin-top: 5px;
+}
+
+.delete{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+  
+.delete:hover {
+    font-size: 1rem;
+    color: red;
+}

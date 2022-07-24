@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    letter-spacing: 0.03rem;
+}
+
+h2{
+    margin: 1%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    width: 65%;
+}
+
+#address-and-payment{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px 0 0 50px;
+    padding: 25px;
+    border: 1px solid lightgray;
+}
+
+#address-and-payment h2{
+    margin-bottom: 15px;
+}
+
+#address{
+    width: 45%;
+}
+
+#payment{
+    margin-left: 7.5%;
+    width: 45%;
+}
+
+.input-field-container{
+    width: 90.7%;
+    padding: 10px;
+}
+
+.input-field-container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.input-field-container input:focus{
+    outline: 2.5px solid orange;
+}
+
+#expiry-month, #state{
+    width: 80%; 
+} 
+
+#accepted-cards{
+    padding-left: 7.5px;
+    margin: 19.5px 0;
+}
+
+#accepted-cards span{
+    display: block;
+}
+
+#accepted-cards i{
+    font-size: 2.1rem;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+#submit-button{
+    margin: 20px auto 10px;
+    width: 90%;
+    padding: 10px;
+    border: 0px solid transparent;
+    background-color: orange;
+    letter-spacing: 0.03rem;
+    font-size: 0.95rem;
+}
+
+#submit-button:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#submit-button:focus{
+    outline: none;
+}
+
+#cart{
+    width: 25%;
+    margin: 25px 0 0 50px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    height: 275px;
+}
+
+#cart div{
+    display: flex;
+    padding: 7.5px 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
